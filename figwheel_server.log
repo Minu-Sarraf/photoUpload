@@ -1,0 +1,535 @@
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.434 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.608 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.347 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.328 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.305 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.186 seconds.[0m
+[36m----  Could not Analyze  src/hello_pic/core.cljs  ----[0m
+
+  [1mNo such namespace: reagent.session, could not locate reagent/session.cljs, reagent/session.cljc, or JavaScript source providing "reagent.session" [0m
+
+[36m----  Analysis Error : Please see src/hello_pic/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.403 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.344 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.343 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.16 seconds.[0m
+[36m----  Could not Analyze  src/hello_pic/core.cljs  ----[0m
+
+  [1mNo such namespace: devtools.core, could not locate devtools/core.cljs, devtools/core.cljc, or JavaScript source providing "devtools.core" [0m
+
+[36m----  Analysis Error : Please see src/hello_pic/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.179 seconds.[0m
+[36m----  Could not Analyze  src/hello_pic/core.cljs  ----[0m
+
+  [1mNo such namespace: devtools.core, could not locate devtools/core.cljs, devtools/core.cljc, or JavaScript source providing "devtools.core" [0m
+
+[36m----  Analysis Error : Please see src/hello_pic/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m33[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m34[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [33m37[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [36m40[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app"))[0m
+  [36m41[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m33[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m34[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [33m37[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [36m40[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app"))[0m
+  [36m41[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:20  ----[0m
+
+  [1mNo such namespace: m, could not locate m.cljs, m.cljc, or JavaScript source providing "m"[0m
+
+  [36m33[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m34[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [33m37[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m                   ^--- No such namespace: m, could not locate m.cljs, m.cljc, or JavaScript source providing "m"[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [36m40[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app"))[0m
+  [36m41[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:20  ----[0m
+
+  [1mUse of undeclared Var m/main[0m
+
+  [36m33[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m34[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [33m37[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var m/main[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [36m40[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app"))[0m
+  [36m41[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:40  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [36m37[0m  [36m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [33m40[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app"))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+  [36m41[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [36m37[0m  [36m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [33m40[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app"))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+  [36m41[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 5.234 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m33[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m34[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [33m37[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [36m40[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m33[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m34[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [33m37[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [36m40[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:20  ----[0m
+
+  [1mNo such namespace: m, could not locate m.cljs, m.cljc, or JavaScript source providing "m"[0m
+
+  [36m33[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m34[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [33m37[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m                   ^--- No such namespace: m, could not locate m.cljs, m.cljc, or JavaScript source providing "m"[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [36m40[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:20  ----[0m
+
+  [1mUse of undeclared Var m/main[0m
+
+  [36m33[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m34[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [33m37[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var m/main[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [36m40[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:40  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [36m37[0m  [36m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [33m40[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m36[0m  [36m(defn ^:export render [][0m
+  [36m37[0m  [36m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn on-js-reload [][0m
+  [33m40[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.419 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:34  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m30[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m31[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(defn ^:export render [][0m
+  [33m34[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn on-js-reload [][0m
+  [36m37[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:34  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m30[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m31[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(defn ^:export render [][0m
+  [33m34[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn on-js-reload [][0m
+  [36m37[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:34  column:20  ----[0m
+
+  [1mNo such namespace: m, could not locate m.cljs, m.cljc, or JavaScript source providing "m"[0m
+
+  [36m30[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m31[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(defn ^:export render [][0m
+  [33m34[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m                   ^--- No such namespace: m, could not locate m.cljs, m.cljc, or JavaScript source providing "m"[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn on-js-reload [][0m
+  [36m37[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:34  column:20  ----[0m
+
+  [1mUse of undeclared Var m/main[0m
+
+  [36m30[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m31[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(defn ^:export render [][0m
+  [33m34[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var m/main[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn on-js-reload [][0m
+  [36m37[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m33[0m  [36m(defn ^:export render [][0m
+  [36m34[0m  [36m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn on-js-reload [][0m
+  [33m37[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:37  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m33[0m  [36m(defn ^:export render [][0m
+  [36m34[0m  [36m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [36m35[0m  [36m[0m
+  [36m36[0m  [36m(defn on-js-reload [][0m
+  [33m37[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.419 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:33  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m29[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m30[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [33m33[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [36m36[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:33  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m29[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m30[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [33m33[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [36m36[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:33  column:20  ----[0m
+
+  [1mNo such namespace: m, could not locate m.cljs, m.cljc, or JavaScript source providing "m"[0m
+
+  [36m29[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m30[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [33m33[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m                   ^--- No such namespace: m, could not locate m.cljs, m.cljc, or JavaScript source providing "m"[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [36m36[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:33  column:20  ----[0m
+
+  [1mUse of undeclared Var m/main[0m
+
+  [36m29[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m30[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [33m33[0m  [1m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m                   ^--- Use of undeclared Var m/main[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [36m36[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:36  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [36m33[0m  [36m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [33m36[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:36  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [36m33[0m  [36m  (reagent/render [m/main] (js/document.getElementById "app")))[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [33m36[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.397 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:33  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m29[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m30[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [33m33[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [36m36[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:33  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m29[0m  [36m   [:input {:type "file" :on-change load-image}][0m
+  [36m30[0m  [36m   [:img {:id img-id :src @preview-src}]])[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [33m33[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [36m36[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:36  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [36m33[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [33m36[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:36  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m32[0m  [36m(defn ^:export render [][0m
+  [36m33[0m  [36m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [33m36[0m  [1m  (reagent/render [image-upload-fn] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.355 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:36  column:4  ----[0m
+
+  [1mNo such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+  [36m32[0m  [36m  [:div [:h2 "image"]])[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [33m36[0m  [1m  (reagent/render [aa] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- No such namespace: reagent, could not locate reagent.cljs, reagent.cljc, or JavaScript source providing "reagent"[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+[36m----  Compiler Warning on   src/hello_pic/core.cljs   line:36  column:4  ----[0m
+
+  [1mUse of undeclared Var reagent/render[0m
+
+  [36m32[0m  [36m  [:div [:h2 "image"]])[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m[0m
+  [36m35[0m  [36m(defn on-js-reload [][0m
+  [33m36[0m  [1m  (reagent/render [aa] (js/document.getElementById "app")))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var reagent/render[0m
+
+[36m----  Compiler Warning : Please see src/hello_pic/core.cljs  ----[0m
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.567 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+[31mFailed to compile build :dev from ["src"] in 0.154 seconds.[0m
+[36m----  Could not Analyze  src/hello_pic/core.cljs   line:1  column:1  ----[0m
+
+  [1mnth not supported on this type: Keyword[0m
+
+  [33m1[0m  [1m(ns hello-pic.core[0m
+  [0m [0m  [33m^--- nth not supported on this type: Keyword[0m
+  [36m2[0m  [36m  :require [reagent.core :as reagent :refer [atom]])[0m
+  [36m3[0m  [36m[0m
+  [36m4[0m  [36m(enable-console-print!)[0m
+
+[36m----  Analysis Error : Please see src/hello_pic/core.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.95 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.378 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
+Compiling build :dev to "resources/public/js/compiled/hello_pic.js" from ["src"]...
+WARNING: preload namespace devtools.preload does not exist
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/hello_pic.js" in 0.309 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/hello_pic/core.js
